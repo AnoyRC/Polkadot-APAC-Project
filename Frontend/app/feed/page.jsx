@@ -5,7 +5,6 @@ import Sidebar from "../components/Feed/Sidebar";
 import Playground from "../components/Playground/Playground";
 import OtherMenu from "../components/OtherMenu/OtherMenu";
 import { Toaster } from "@/components/ui/toaster";
-import Advertisement from "../components/OtherMenu/Advertisements";
 
 const page = () => {
   return (
@@ -14,7 +13,6 @@ const page = () => {
       <Sidebar />
       <Navbar />
       <OtherMenu />
-      <Advertisement />
       <Toaster />
     </div>
   );
